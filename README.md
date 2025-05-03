@@ -1,9 +1,9 @@
-# <div align="center"> Q-Vote 🗳️ 
+# <div align="center"> Q-Ballot 🗳️ 
 <i> </div> <p align="center"> A quantum voting system utilizing quantum superposition and entanglement for secure and private voting</i></b> </p>
 
 ## </div> <p align="center"> <b>Quantum Voting meets Blockchain!</b> </p>
 ## <p align="left">🚀 Project Overview</p>
-Q-Vote simulates a secure voting process using quantum computing, with future plans for blockchain integration and a user-friendly web interface. This project uses Qiskit to simulate quantum voting and lays the groundwork for secure, private voting systems of the future.
+Q-Ballot simulates a secure voting process using quantum computing, with future plans for blockchain integration and a user-friendly web interface. This project uses Qiskit to simulate quantum voting and lays the groundwork for secure, private voting systems of the future.
 
 
 ## <p align="left"> 🏗️ Architecture </p>
