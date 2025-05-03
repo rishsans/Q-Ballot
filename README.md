@@ -197,10 +197,3 @@ git push origin feature-name
 
 
 
-## <p align="left">📄 License</p>
-This project is licensed under the MIT licensed. See the [LICENSE](./LICENSE) file for details.
-
-## <p align="left">❤️ Acknowledgments</p>
-- 💻 Qiskit – The quantum computing SDK used in this project.
-- 🙌 Contributors and community members – Thank you for your valuable feedback and suggestions.
-## <div align="center"> <p>If you find this project helpful, give it a star ⭐!</p> </div>
