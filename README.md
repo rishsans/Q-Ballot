@@ -53,6 +53,4 @@ This novel system bridges the gap between secure electronic voting and long-term
 - Support for multi-district elections with distributed voting authorities.
 - Simulation of quantum attacks to test system robustness.
 
-## 📬 Contact
-Drishti — Quantum Researcher, Security Enthusiast  
-[LinkedIn / GitHub / Email placeholders – add actual links]
+
