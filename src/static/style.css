@@ -1,0 +1,220 @@
+General styles
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+/* 
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+} */
+#header {
+    background: #1e262d;
+    top: 0;
+    width: 100%;
+    position: relative;
+    border-radius: 0px 0px 40px 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#header:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.logo {
+    float: left;
+    padding: 26px 0 26px;
+}
+.logo a {
+    font-size: 28px;
+    display: block;
+    padding: 0 0 0 20px;
+}
+
+/* Form styles */
+.form-vote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.candidate-select {
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.darkmode--activated .candidate-select {
+    border: 1px solid #787878;
+}
+
+.candidate-select:hover {
+    background-color:  #E0E0E0;
+}
+
+.count {
+    margin: 1.3rem 0;
+}
+
+.btn-submit {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+
+/* Table styles */
+.vote-results {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.vote-results th, .vote-results td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+}
+.vote-results th {
+    background-color: #007bff;
+    color: white;
+}
+
+.vote-results tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.vote-results tr:hover {
+    background-color: #ddd;
+}
+
+/* Winner list styles */
+.winners-list {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.winners-list li {
+    font-size: 18px;
+    font-weight: bold;
+    color: #28a745;
+}
+
+/* Button styles */
+.btn-logout {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.btn-logout:hover {
+    background-color: #c82333;
+}
+
+/* Authentication form styles */
+.form-auth {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.darkmode--activated .input-field {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #787878;
+    margin-bottom: 20px;
+}
+
+.input-field:hover {
+    background-color: #D5D5D5;
+}
+
+.btn-submit {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Error message styles */
+.error-container {
+    background-color: #f8d7da;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.error-message {
+    color: #dc3545;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Success message styles */
+.success-container {
+    background-color: #95d5b2;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.success-message {
+    color: #14A44D;
+    text-align: center;
+    padding: 20px;
+}

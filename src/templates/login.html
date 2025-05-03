@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Q-Vote</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script><link rel="stylesheet" href="../static/login.css">
+    
+</head>
+<body>
+    <div>
+    <div id="header">
+        <div class="logo">
+            <a href="#">Q-Ballot : Quantum Voting System</a>
+        </div> 
+    </div>
+    <section>
+        <form action="/login" method="POST" class="form-auth">
+            <h1>Login</h1>
+            <div class="inputbox">
+                <ion-icon name="person-outline"></ion-icon>
+                <input type="text" name="username" value="{{username}}"  required>
+                <label for="username">Username</label>
+            </div>
+
+            <div class="inputbox">
+                <ion-icon name="lock-closed-outline"></ion-icon>
+                <input type="password" name="password" required>
+                <label for="password">Password</label>
+            </div>
+            {% if message %}
+            <div class="error-container">
+                <div class="error-message">{{ message }}</div>
+            </div>
+            {% endif %}
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                        {% if category == 'success' %}
+                            <div class="success-container">
+                                <div class="success-message">{{ message }}</div>
+                            </div>
+                        {% else %}
+                            <div class="error-container">
+                                <div class="error-message">{{ message }}</div>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+            <button>Login</button>
+            <div class="register">
+                <p>Don't have a account <a href="/register">Register</a></p>
+            </div>
+        </form>
+    </section>
+    
+</div>
+<footer id="credits">
+    Website made by Ayushi Arora, Drishti Rani, Kirti Gupta, and Mimansa Tripathi
+  </footer>
+</body>
+</html>
