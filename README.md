@@ -5,7 +5,36 @@
 ## 📄 Project Overview
 Q-Ballot is a quantum-enhanced, privacy-preserving, and tamper-resistant digital voting platform designed to address critical limitations of traditional and blockchain-based e-voting systems. Built on the principles of quantum key distribution (QKD) and post-quantum cryptography (PQC), Q-Ballot ensures long-term voter privacy, vote integrity, and resistance to quantum attacks.
 
-## ✨ Key Features
+## 💡 Novelty & Research Contribution
+- First integration of quantum key distribution (QKD) and post-quantum cryptography (PQC) in a verifiable voting pipeline.
+- Provides long-term resistance against quantum adversaries unlike traditional systems or even current blockchain-based models.
+- Introduces hybrid quantum-classical design, combining quantum-safe authentication, vote anonymization, and blockchain immutability.
+- Emphasizes transparency and individual verifiability using zero-knowledge proofs, which are post-quantum secure.
+- Scalability and auditability are enhanced via zk-rollups and Merkle-tree-based tracking.
+
+## ✨ Architecture
+![image](https://github.com/user-attachments/assets/c44045b0-c025-4d23-982d-09b77b8e8112)
+
+## <p align="left">✨ Features</p>
+
+- 🧑‍🔬 Quantum Voting using Qiskit
+- 🗳️ Multiple Voters Simulation
+- 📊 Voting Results Visualization with histograms
+- 🛠️ Planned Improvements:
+    - Blockchain integration for vote immutability
+    - User-friendly web interface for voting
+More voting options and candidate choices.
+
+## <p align="left">⚙️ Tech Stack</p>
+<div align="left">
+<a href="https://qiskit.org/"><img src="https://img.shields.io/badge/Qiskit-6929c4?style=for-the-badge&logo=IBM&logoColor=white"></a> <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></a> <a href="https://flask.palletsprojects.com/"><img src="https://img.shields.io/badge/-Flask-000000?logo=flask&logoColor=white&style=for-the-badge"></a> <a href="https://www.javascript.com/"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black"></a> <a href="https://nodejs.org/en/"><img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white"></a>
+
+
+# Implementation
+## 🚀 Proposed Solution
+Q-Ballot proposes an end-to-end verifiable voting ecosystem with enhanced trust and transparency. Voters are authenticated using post-quantum credentials. Their ballots are encrypted using quantum-safe algorithms and shuffled anonymously via secure MPC protocols. After verification via ZKPs, encrypted ballots are posted to a tamper-proof blockchain for transparent tallying.
+
+This novel system bridges the gap between secure electronic voting and long-term quantum resilience.
 
 ### 🔐 Quantum-Secure Authentication
 - Voter identity is verified using quantum-safe cryptographic techniques (e.g., lattice-based or hash-based digital signatures).
@@ -28,24 +57,6 @@ Q-Ballot is a quantum-enhanced, privacy-preserving, and tamper-resistant digital
 - Votes can be tallied in real-time using homomorphic tallying techniques.
 - Audit trails generated using Merkle trees and cryptographic proofs.
 
-## 🔬 Technical Stack
-- **Programming Languages:** Python (quantum logic), Solidity (smart contracts), JavaScript (frontend)
-- **Quantum SDKs:** Qiskit (IBM), Cirq (Google)
-- **Cryptography:** CRYSTALS-Kyber, Dilithium, Picnic (PQCrypto), SHA3-512, ZK-SNARKs
-- **Blockchain:** Ethereum, IPFS, zk-rollups (Polygon/zkSync)
-- **Frontend:** React.js, Web3.js
-
-## 🚀 Proposed Solution
-Q-Ballot proposes an end-to-end verifiable voting ecosystem with enhanced trust and transparency. Voters are authenticated using post-quantum credentials. Their ballots are encrypted using quantum-safe algorithms and shuffled anonymously via secure MPC protocols. After verification via ZKPs, encrypted ballots are posted to a tamper-proof blockchain for transparent tallying.
-
-This novel system bridges the gap between secure electronic voting and long-term quantum resilience.
-
-## 💡 Novelty & Research Contribution
-- First integration of quantum key distribution (QKD) and post-quantum cryptography (PQC) in a verifiable voting pipeline.
-- Provides long-term resistance against quantum adversaries unlike traditional systems or even current blockchain-based models.
-- Introduces hybrid quantum-classical design, combining quantum-safe authentication, vote anonymization, and blockchain immutability.
-- Emphasizes transparency and individual verifiability using zero-knowledge proofs, which are post-quantum secure.
-- Scalability and auditability are enhanced via zk-rollups and Merkle-tree-based tracking.
 
 ## 📎 Future Enhancements
 - Integration with real-world QKD networks.
